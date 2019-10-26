@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.aplikasiku.klaten">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KLATEN"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/klaten"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KLATEN"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/klaten"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Klaten berasal dari nama Kyai Melati Sokolekan yang telah membuka hutan diwilayah itu menjadi sebuah perdukuhan kecil. Semula, perdukuhan kecil itu dikenal dengan nama padukuhan Sokolekan.
+Setelah perdukuhan itu berkembang dan menjadi besar, orang kemudian menyebutnya sebagai wilayah Kyai Meati atau ada yang menyebutnya dengan Mlatina, Mlatenan dan kemudian menjadi Klaten. Nama Klaten juga berasal dari nama Kyai Melati, yang kemudian berubah menjadi Kelati, Mlati, dan Klati untuk memudahkan pengucapan, kemudian berubah menjadi kata Klaten"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

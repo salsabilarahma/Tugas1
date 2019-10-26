@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.aplikasiku.bandung">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BANDUNG"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bandung"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BANDUNG"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bandung"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bandung merupakan sebuah kota yang cukup terpencil karena terletak diantara pegunungan akan tetapi memiliki daya tarik yang fantastis sehingga penjajah Belanda saja menamakannya Paris Van Java.
+Keindahan kota Bandung udaranya sejuk, factory outlet yang menjual pakaian-pakaian branded dengan harga miring, distro dimana kita bisa menemukan kaos-kaos gaul ala anak-anak muda serta wisata kuliner yang beragam mulai dari kaki lima, restoran high class hingga cafe-cafe do lembang dan dago atas yang begitu memanjakan pengunjungnya baik dengan makanannya yang menggugah selera maupun nuansa romantis yang mereka sajika membuat orang-orang begitu terpesona dengan kota kembang yang luar biasa ini."
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

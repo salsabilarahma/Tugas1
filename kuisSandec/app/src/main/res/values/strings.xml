@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QUIS TIME</string>
+    <string name="title_home">Pengenalan</string>
+    <string name="title_konten">Konten</string>
+    <string name="title_kuis">Kuis</string>
+    <string name="konten_easy">dalam mode easy disini akan berisi tentang pertanyaan mudah, pertanyaan
+    akan berisi tentang Layout</string>
+    <string name="konten_hard">dalam mode easy disini akan berisi tentang pertanyaan susah, pertanyaan
+    akan berisi tentang activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

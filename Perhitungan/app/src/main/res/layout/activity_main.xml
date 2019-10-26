@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.perhitungan.MainActivity">
+
+    <!-- by Mode Vertical  -->
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ff0008"
+        android:onClick="resetPoint"
+        android:text="Reset"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        tools:context="com.okedroid.penghitungscore.MainActivity"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="4dp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="TeamA"
+            android:textAllCaps="true"
+            android:textColor="#024327"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_above="@+id/scoreA"
+            android:layout_alignRight="@+id/button9"
+            android:layout_alignEnd="@+id/button9"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/scoreA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:paddingBottom="24dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="56sp"
+        android:layout_above="@+id/scoreB"
+        android:layout_alignRight="@+id/button9"
+        android:layout_alignEnd="@+id/button9"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="4dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="TeamB"
+        android:textAllCaps="true"
+        android:textColor="#616161"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/activity_main"
+        android:layout_toRightOf="@+id/button9"
+        android:layout_toEndOf="@+id/button9"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <LinearLayout
+        android:layout_width=""
+        android:layout_height=""></LinearLayout>

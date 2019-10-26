@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.aplikasiku.jakarta">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAKARTA"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"/>
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/jakarta"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAKARTA"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/jakarta"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jakarta mengawali sejarahnya sebagai kota pelabuhan yang bernama Sunda Kelapa.Pada tahun 1552 bangsa Portugis tiba di Sunda KelapA.Dengan tujuan meminta ijin utnuk mendirikan benteng pertahanan di dekat muara Sungai Ciliwung. Setelah berhasil mengadakan perjanjian dengan penguasa Sunda Kelapa Bangsa Portugis kembali ke Malaka.
+Pada 1527 bangsa Portugis kembali ke Sunda Kelapa tanpa diketahui Sunda Kelapa.Telah jatuh ke tangan FATAHILLAH dan bangsa Portugis berusaha merebut kembali Sunda Kelapa.Atas pertemuan ini Fatahillah menang dan mengubah nama Sunda Kelapa menjadi Jayakarta. Belanda takluk kepada Jepang (1942), kemudian Batavia diganti nama menjadi Jakarta."
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.aplikasiwidget.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <ImageButton
+        android:layout_width="450px"
+        android:layout_height="200px"
+        android:id="@+id/ibbandung"
+        android:src="@drawable/DF5V_63UwAEYqs5"
+        android:onClick="firstImageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageButton
+        android:layout_width="450px"
+        android:layout_height="200px"
+        android:id="@+id/ibjakarta"
+        android:src="@drawable/Megawisata-Ocarina-Batam"
+        android:onClick="secondImageButton"
+        android:layout_below="@+id/ibbandung"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="450px"
+        android:layout_height="200px"
+        android:id="@+id/klaten"
+        android:src="@drawable/Obyek-Wisata-Baturaden"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/ibjakarta" />
+
+    <ImageButton
+        android:layout_width="450px"
+        android:layout_height="200px"
+        android:id="@+id/pekanbaru"
+        android:src="@drawable/pemandian_air_panas"
+        android:onClick="firstImageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/klaten" />
+
+    <ImageButton
+        android:layout_width="450px"
+        android:layout_height="200px"
+        android:id="@+id/yogyakarta"
+        android:src="@drawable/pusatprimataschmutzer"
+        android:onClick="secondImageButton"
+        android:layout_below="@+id/pekanbaru"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</ScrollView>

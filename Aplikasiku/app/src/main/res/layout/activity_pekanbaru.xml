@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.aplikasiku.pekanbaru">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEKANBARU"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/pekanbaru"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEKANBARU"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/pekanbaru"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sultan Abdul Jalil Alamudin Syah memilik inisiatif untuk membuat Pekan (pasar)di Senapelan, namun sayangnya tidak berkembang. Kemudian, usaha yang telah dirintisnya tersebut dilanjutkan oleh putranya Raja Muhammad Ali ditempat baru yaitu sekitar pelabuhan sekarang.Lalu berdasarkan musyawarah datuk-datuk empat suku(Pesisir, LimaPuluh, Tanah Datar dan Kampar) pada hari Selasa tanggal 21 Rajah 1204 H atau tanggal 23 Juni diperingati sebagai hari lahir Kota Pekanbaru.Semenjak itu sebutan Senapelan sudah mulai ditinggalkan dan mulai dipopuler menjadi sebutan PEKAN BAHARU, yang kemudian dalam bahasa kesehariannya disebut PEKANBARU. "
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
